@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="CallLogFragment" />
+        <option name="name" value="CallLogFragment" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
@@ -17,12 +28,23 @@
     <ignored path="CallLog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/calllog_activity.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371726656844" ignored="false" />
-    <file path="/Dummy.txt" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371726376572" ignored="false" />
+    <file path="/Dummy.txt" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371784822633" ignored="false" />
     <file path="/calllog_fragment.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371726851372" ignored="false" />
-    <file path="/CallLogFragment.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371730043376" ignored="false" />
+    <file path="/CallLogFragment.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371784800400" ignored="false" />
     <file path="/CallLogQueryHandler.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371729935471" ignored="false" />
     <file path="/CallLogQuery.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371727594403" ignored="false" />
     <file path="/CallLogAdapter.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371728850273" ignored="false" />
+    <file path="/strings.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371783051386" ignored="false" />
+    <file path="/CallLogListAdapter.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371789222840" ignored="false" />
+    <file path="/ContactInfo.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371779413184" ignored="false" />
+    <file path="/CallLogListItemView.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371785266768" ignored="false" />
+    <file path="/PhoneCallDetailsHelper.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371789152491" ignored="false" />
+    <file path="/calllog_list_item.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371784193550" ignored="false" />
+    <file path="$PROJECT_DIR$/CallLog/build/res/all/debug/values-zh/values.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371783745684" ignored="false" />
+    <file path="$PROJECT_DIR$/CallLog/build/res/all/debug/layout/calllog_fragment.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371783745684" ignored="false" />
+    <file path="$PROJECT_DIR$/CallLog/build/res/all/debug/menu/call_log.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371783745684" ignored="false" />
+    <file path="$PROJECT_DIR$/CallLog/build/source/r/debug/com/haier/calllog/R.java" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371785099039" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="1ef070da-099a-434f-aaf2-f676a9bc51b0" time="1371785081487" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +59,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -74,6 +95,24 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListAdapter.java" line="72" class="com.haier.calllog.CallLogListAdapter" package="com.haier.calllog">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,67 +122,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="calllog_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_activity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="CallLogListItemView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListItemView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="529" selection-end="529" vertical-scroll-proportion="-2.8301888">
+            <state line="51" column="0" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CallLogActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallLogFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="36" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallLogListAdapter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CallLogListAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="474" selection-end="474" vertical-scroll-proportion="0.6094808">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallLogQueryHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQueryHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsyncQueryHandler.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/AsyncQueryHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="73" column="34" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactInfo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/ContactInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="0" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneCallDetailsHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneCallDetailsHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="70" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.338843">
+              <folding>
+                <element signature="e#2990#3034#0" expanded="true" />
+                <element signature="e#3140#3180#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,23 +166,65 @@
       <file leaf-file-name="CallLogQuery.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="5" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="107" column="28" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallLogFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="36" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallLogQueryHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQueryHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="32" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="calllog_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_fragment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calllog_list_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="609" selection-end="609" vertical-scroll-proportion="-4.245283">
+            <state line="6" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="-1.6981132">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calllog_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_activity.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding>
+                <element signature="e#893#914#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -178,16 +235,30 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogActivity.java" />
-        <option value="$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_activity.xml" />
         <option value="$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_fragment.xml" />
         <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQuery.java" />
         <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogAdapter.java" />
         <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQueryHandler.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/res/values-zh/strings.xml" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/com/haier/calllog/utils/UriUtils.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneCallDetails.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneNumberHelper.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/CallLog/build/res/all/debug/layout/calllog_list_item.xml" />
         <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogFragment.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/ContactInfo.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListItemView.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListAdapter.java" />
+        <option value="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneCallDetailsHelper.java" />
       </list>
     </option>
   </component>
@@ -223,7 +294,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,6 +374,66 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-zh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CallLog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -367,6 +497,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,6 +507,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -384,6 +516,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CallLog/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/CallLog/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/CallLog/src/main/res/values-zh" />
+      <recent name="$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.CallLog-CallLog">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -511,46 +651,67 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1ef070da-099a-434f-aaf2-f676a9bc51b0" name="Default" comment="" />
       <created>1371726179692</created>
       <updated>1371726179692</updated>
       <workItem from="1371726193057" duration="3861000" />
+      <workItem from="1371777976288" duration="5609000" />
+      <workItem from="1371783604532" duration="391000" />
+      <workItem from="1371784110409" duration="177000" />
+      <workItem from="1371784342146" duration="5033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3861000" />
+    <option name="totallyTimeSpent" value="15071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1602" height="857" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48579547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4431818" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67045456" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5568182" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15198864" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.67045456" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -614,74 +775,133 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/telephony/PhoneNumberUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="529" selection-end="529" vertical-scroll-proportion="-2.8301888">
+        <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="609" selection-end="609" vertical-scroll-proportion="-4.245283">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogActivity.java">
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneNumberHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+        <state line="29" column="57" selection-start="1011" selection-end="1019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="47" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/build/res/all/debug/layout/calllog_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="23" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#577#595#0" expanded="false" />
+            <element signature="e#743#761#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/AsyncQueryHandler.class">
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_activity.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#893#914#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/res/layout/calllog_list_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="279" selection-end="279" vertical-scroll-proportion="-1.6981132">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQueryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="32" selection-start="2018" selection-end="2018" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="5" selection-start="4053" selection-end="4053" vertical-scroll-proportion="0.0">
+        <state line="107" column="28" selection-start="5044" selection-end="5044" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/ContactInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="4351" selection-end="4351" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogQueryHandler.java">
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListItemView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="36" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="51" column="0" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/CallLogListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="474" selection-end="474" vertical-scroll-proportion="0.6094808">
+        <state line="73" column="34" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CallLog/src/main/java/com/haier/calllog/PhoneCallDetailsHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="70" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.338843">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2990#3034#0" expanded="true" />
+            <element signature="e#3140#3180#0" expanded="true" />
           </folding>
         </state>
       </provider>

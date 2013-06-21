@@ -10,28 +10,72 @@ package com.haier.calllog;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int action_bar_button_text_color=0x7f040000;
+        public static final int background_primary=0x7f040001;
+        public static final int background_social_updates=0x7f040002;
+        public static final int call_log_detail=0x7f040003;
+        public static final int call_log_missed_call_highlight_color=0x7f040004;
+        public static final int call_log_voicemail_highlight_color=0x7f040005;
+        public static final int calllog_list_item_simname_font_color=0x7f040006;
+        public static final int contact_count_text_color=0x7f040007;
+        public static final int contact_name_searched_color=0x7f040008;
+        public static final int contact_tile_shadow_box_color=0x7f040009;
+        public static final int detail_tab_carousel_tab_label_color=0x7f04000a;
+        public static final int detail_update_tab_text_color=0x7f04000b;
+        public static final int dialtacts_secondary_text_color=0x7f04000c;
+        public static final int image_placeholder=0x7f04000d;
+        public static final int item_selected=0x7f04000e;
+        public static final int people_app_theme_color=0x7f04000f;
+        public static final int people_contact_tile_status_color=0x7f040010;
+        public static final int quickcontact_list_background=0x7f040011;
+        public static final int quickcontact_list_divider=0x7f040012;
+        public static final int quickcontact_tab_indicator=0x7f040013;
+        public static final int section_header_text_color=0x7f040014;
+        public static final int shortcut_overlay_text_background=0x7f040015;
+        public static final int stream_item_stripe_color=0x7f040016;
+        public static final int textColorIconOverlay=0x7f040017;
+        public static final int textColorIconOverlayShadow=0x7f040018;
+        public static final int voicemail_playback_seek_bar_already_played=0x7f040019;
+        public static final int voicemail_playback_seek_bar_yet_to_play=0x7f04001a;
+        public static final int voicemail_playback_ui_background=0x7f04001b;
+    }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080001;
-        public static final int calllog_list_fragment=0x7f080000;
+        public static final int action_settings=0x7f090004;
+        public static final int call_date=0x7f090003;
+        public static final int call_number=0x7f090001;
+        public static final int call_type=0x7f090002;
+        public static final int calllog_list_fragment=0x7f090000;
     }
     public static final class layout {
         public static final int calllog_activity=0x7f030000;
         public static final int calllog_fragment=0x7f030001;
+        public static final int calllog_list_item=0x7f030002;
     }
     public static final class menu {
-        public static final int call_log=0x7f070000;
+        public static final int call_log=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int hello_world=0x7f050002;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int call_log_auto_rejected_label=0x7f060002;
+        public static final int emergencycall=0x7f060003;
+        public static final int hello_world=0x7f060004;
+        public static final int payphone=0x7f060005;
+        public static final int private_num=0x7f060006;
+        public static final int type_incoming=0x7f060007;
+        public static final int type_missed=0x7f060008;
+        public static final int type_outgoing=0x7f060009;
+        public static final int type_voicemail=0x7f06000a;
+        public static final int unknown=0x7f06000b;
+        public static final int voicemail=0x7f06000c;
     }
     public static final class style {
         /** 
@@ -42,9 +86,9 @@ public final class R {
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_social_updates">#ffeeeeee</color>
+    <color name="call_log_detail">#ff111c21</color>
+    <color name="call_log_missed_call_highlight_color">#FF0000</color>
+    <color name="call_log_voicemail_highlight_color">#33b5e5</color>
+    <color name="calllog_list_item_simname_font_color">#ffffffff</color>
+    <color name="contact_count_text_color">#AAAAAA</color>
+    <color name="contact_name_searched_color">#2EE4FF</color>
+    <color name="contact_tile_shadow_box_color">#7F000000</color>
+    <color name="detail_tab_carousel_tab_label_color">#EEEEEE</color>
+    <color name="detail_update_tab_text_color">#777777</color>
+    <color name="dialtacts_secondary_text_color">#888888</color>
+    <color name="image_placeholder">#DDDDDD</color>
+    <color name="item_selected">#660099cc</color>
+    <color name="people_app_theme_color">#33B5E5</color>
+    <color name="people_contact_tile_status_color">#CCCCCC</color>
+    <color name="quickcontact_list_background">#ffe2e2e2</color>
+    <color name="quickcontact_list_divider">#ffcdcdcd</color>
+    <color name="quickcontact_tab_indicator">#ff33b5e6</color>
+    <color name="section_header_text_color">#ff999999</color>
+    <color name="shortcut_overlay_text_background">#7f000000</color>
+    <color name="stream_item_stripe_color">#CCCCCC</color>
+    <color name="textColorIconOverlay">#fff</color>
+    <color name="textColorIconOverlayShadow">#000</color>
+    <color name="voicemail_playback_seek_bar_already_played">#ccffffff</color>
+    <color name="voicemail_playback_seek_bar_yet_to_play">#44ffffff</color>
+    <color name="voicemail_playback_ui_background">@android:color/black</color>
+
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <string name="action_settings">Settings</string>
     <string name="app_name">CallLog</string>
+    <string name="call_log_auto_rejected_label">Rejected</string>
+    <string name="emergencycall">Emergency Call</string>
     <string name="hello_world">Hello world!</string>
+    <string name="payphone">payphone</string>
+    <string name="private_num">private</string>
+    <string name="type_incoming">Incoming call</string>
+    <string name="type_missed">Missed call</string>
+    <string name="type_outgoing">Outgoing call</string>
+    <string name="type_voicemail">Voicemail</string>
+    <string name="unknown">unknown</string>
+    <string name="voicemail">Voicemail</string>
 
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
