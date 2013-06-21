@@ -1,0 +1,16 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1371726688000 389 c2ce449b56f3c490afe315c10a4bc6feaf5d81fa /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$menu.class
+1371726198000 824 f632899ef671fb1b74cc71e5c1fe5c09b9d5597a /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/CallLogActivity.class
+1371726198000 337 7757b1f523d95ce21e5437c188dc0aa94adfee58 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$attr.class
+1371726688000 435 363ff14744fdcb9f80ab436f348a55f124f9316a /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$id.class
+1371726688000 667 1ebb4d9f711f1ffe2e717e990836920e86a40b94 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R.class
+1371726688000 428 549b1c9994b94536b1200511705cb451994bb00a /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$style.class
+1371726688000 443 9f11e2e8f5a1c72a5206dcf10b5f64c90a121c4b /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$layout.class
+1371726775000 798 2bbe149184008ff790be3652d45234832450a48b /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/CallLogFragment.class
+1371726178000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /home/jiang/AndroidStudioProjects/CallLog/CallLog/libs/android-support-v4.jar
+1371726198000 343 01b737ade38025fafaf396609ff9afcd785f58b1 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/BuildConfig.class
+1371726688000 469 53e216d58d4d1acbcfc949250ba24566638f0e36 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$string.class
+1371726198000 458 3b5a00447778bc3a55f8b53b4d22a2e162d259a4 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$dimen.class
+1371726198000 404 5f483089938e82ee64cddf75e11b5af32243b55d /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/classes/debug/com/haier/calllog/R$drawable.class
