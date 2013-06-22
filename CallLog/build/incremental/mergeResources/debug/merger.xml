@@ -52,9 +52,9 @@
                 </color>
                 <color name="voicemail_playback_seek_bar_yet_to_play" >#44ffffff
                 </color>
-                <color name="contact_tile_shadow_box_color" >#7F000000
-                </color>
                 <color name="contact_name_searched_color" >#2EE4FF
+                </color>
+                <color name="contact_tile_shadow_box_color" >#7F000000
                 </color>
                 <color name="call_log_voicemail_highlight_color" >#33b5e5
                 </color>
@@ -66,11 +66,11 @@
                 </color>
                 <color name="item_selected" >#660099cc
                 </color>
-                <color name="textColorIconOverlayShadow" >#000
+                <color name="call_log_detail" >#ff111c21
                 </color>
                 <color name="voicemail_playback_ui_background" >@android:color/black
                 </color>
-                <color name="call_log_detail" >#ff111c21
+                <color name="textColorIconOverlayShadow" >#000
                 </color>
                 <color name="section_header_text_color" >#ff999999
                 </color>
@@ -138,7 +138,11 @@
                 </string>
                 <string name="type_voicemail" >Voicemail
                 </string>
+                <string name="missing_name" >Unknown name
+                </string>
                 <string name="payphone" >payphone
+                </string>
+                <string name="recentCalls_addToContact" >add to Contact
                 </string>
                 <string name="emergencycall" >Emergency Call
                 </string>
@@ -151,6 +155,8 @@
                 <string name="call_log_auto_rejected_label" >Rejected
                 </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="toast_call_detail_error" >get calldetails failed!
                 </string>
                 <string name="voicemail" >Voicemail
                 </string>
@@ -214,6 +220,16 @@
                 path="/home/jiang/AndroidStudioProjects/CallLog/CallLog/src/main/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
+            <file
+                name="call_detail"
+                path="/home/jiang/AndroidStudioProjects/CallLog/CallLog/src/main/res/layout/call_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="image_with_text_button"
+                path="/home/jiang/AndroidStudioProjects/CallLog/CallLog/src/main/res/layout/image_with_text_button.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/rs/debug" />
     </dataSet>

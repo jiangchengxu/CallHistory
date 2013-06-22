@@ -17,4 +17,7 @@
     <string name="unknown">unknown</string>
     <string name="private_num">private</string>
     <string name="payphone">payphone</string>
+    <string name="toast_call_detail_error">get calldetails failed!</string>
+    <string name="recentCalls_addToContact">add to Contact</string>
+    <string name="missing_name">Unknown name</string>
 </resources>

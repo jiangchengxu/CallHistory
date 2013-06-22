@@ -2,7 +2,9 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1371726198000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1371815963000 2269 ab61c079af488fe9a6ebb69fb3c544509efd1537 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/layout/call_detail.xml
 1371726198000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/drawable-xxhdpi/ic_launcher.png
+1371816034000 660 1d23ef34a48555e926f834b110a92da068a50b2e /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/layout/image_with_text_button.xml
 1371726198000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/drawable-mdpi/ic_launcher.png
 1371726198000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/menu/call_log.xml
 1371726857000 625 b3f448c2ce7959b32ac1a608e5a7ed3715c66dc9 /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/layout/calllog_fragment.xml
@@ -13,4 +15,4 @@
 1371726198000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/drawable-hdpi/ic_launcher.png
 1371726198000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/values-v11/values.xml
 1371783307000 478 5264c0dd49ac6cca2a64e309bc0cdc537a2be81f /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/values-zh/values.xml
-1371783307000 3091 b59d337f2c2882b33f4b3d6220bce9dd09e9fcac /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/values/values.xml
+1371810904000 3289 4901f651e02c86887879b6405f161063a7d96c2e /home/jiang/AndroidStudioProjects/CallLog/CallLog/build/res/all/debug/values/values.xml

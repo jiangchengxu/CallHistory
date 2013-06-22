@@ -1,12 +1,17 @@
 package com.haier.calllog;
 
 import android.app.ListFragment;
+import android.content.ContentUris;
+import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
+import android.provider.CallLog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 /**
  * Created by jiang on 13-6-20.
@@ -52,5 +57,16 @@ public class CallLogFragment extends ListFragment implements CallLogQueryHandler
 
     private void startQueryCalls(){
         mCallLogQueryHandler.fetchAllCallLogs();
+    }
+
+    @Override
+    public void onListItemClick(ListView l, View v, int position, long id) {
+        super.onListItemClick(l, v, position, id);
+        //Uri queriUri = Uri.parse("content://call_log/callsjoindataview");
+        Uri queryUri = CallLog.Calls.CONTENT_URI;
+        Uri contentUri = ContentUris.withAppendedId(queryUri, id);
+        Intent intent = new Intent(getActivity(), com.haier.calllog.CallDetailActivity.class);
+        intent.setData(contentUri);
+        startActivity(intent);
     }
 }
